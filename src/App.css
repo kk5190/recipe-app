@@ -29,6 +29,7 @@ button:focus {
 
 .App-title {
   font-size: 1.5em;
+  text-align: left;
 }
 
 .recipe_buttons {
@@ -77,13 +78,17 @@ button:focus {
   letter-spacing: 1px;
 }
 
+.form__header {
+  display: flex;
+}
+
 .form__input {
   background: transparent;
   border: 0;
   border-bottom: solid 2px #2c3e50;
   margin-right: 10px;
   letter-spacing: 2px;
-  width: 10%;
+  width: 100%;
   padding: 0.4rem;
 }
 
